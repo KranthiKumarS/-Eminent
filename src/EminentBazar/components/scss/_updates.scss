@@ -1,0 +1,45 @@
+/*
+  * ==========================================================
+  *      UPDATES SECTION
+  * ==========================================================
+  */
+  
+  /* UPDATES MEDIAQUERIES ------------------------- */
+  @media (min-width: 992px) {
+    section.updates {
+      h2 {
+        font-size: 1.05rem;
+      }
+      strong {
+        font-size: 1em;
+        font-weight: 400;
+      }
+      small, .full-date {
+        font-size: 0.85em;
+      }
+    }
+  }
+
+  /*
+  * ==========================================================
+  *      FEEDS SECTION
+  * ==========================================================
+  */
+  
+  /* FEEDS MEDIAQUERIES ------------------------- */
+  @media (max-width: 1091px) {
+    section.updates div[class*='col-'] .wrapper {
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.updates {
+      strong {
+        font-size: 1em;
+      }
+      small {
+        font-size: 0.8em;
+      }
+    }
+  }

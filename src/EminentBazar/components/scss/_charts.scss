@@ -1,0 +1,20 @@
+/*
+  * ==========================================================
+  *     CHART
+  * ==========================================================
+  */
+  section.charts {
+    div[class*="col-"] {
+      margin-bottom: 30px;
+    }
+    header {
+      padding: 30px 0;
+    }
+  }
+
+/* CHARTS MEDIAQUERIES -------------------------- */
+@media (min-width: 992px) {
+    section.charts h2 {
+      font-size: 1rem;
+    }
+  }

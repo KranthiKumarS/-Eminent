@@ -1,0 +1,54 @@
+/*
+  * ==========================================================
+  *      STATISTICS
+  * ==========================================================
+  */
+  
+  /* STATISTICS  MEDIAQUERIES ------------------------- */
+  @media (max-width: 992px) {
+    section.statistics {
+      padding-top: 0;
+      div[class*='col-'] {
+        .wrapper {
+          margin-bottom: 40px;
+        }
+        &:last-of-type .wrapper {
+          margin-bottom: 0;
+        }
+      }
+      .data-usage {
+        text-align: center;
+      }
+    }
+  }
+  
+  @media (max-width: 992px) {
+    section.statistics {
+      div[class*='col-'] {
+        .wrapper {
+          height: auto;
+          margin-bottom: 40px;
+        }
+        &:last-of-type .wrapper {
+          margin-bottom: 0;
+        }
+      }
+      .data-usage {
+        div[class*='col-']:first-of-type {
+          padding-bottom: 20px;
+        }
+        .gmpc {
+          padding-bottom: 20px !important;
+        }
+      }
+    }
+    p {
+      font-size: 0.75em;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.statistics h2 {
+      font-size: 1.3rem;
+    }
+  }

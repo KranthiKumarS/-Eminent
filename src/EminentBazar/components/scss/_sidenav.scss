@@ -1,0 +1,61 @@
+
+  /*
+  * ==========================================================
+  *     SIDE NAVBAR
+  * ==========================================================
+  */
+  
+  /* SIDE NAVBAR MEDIAQUERIES ------------------------------ */
+  @media (max-width: 1200px) {
+    .page {
+      width: 100%;
+      &.active {
+        width: 100%;
+      }
+      &.active-sm {
+        width: calc(100% - 70px);
+      }
+    }
+    nav.side-navbar {
+      left: -70px;
+      width: 70px;
+      text-align: center;
+      &.show-sm {
+        left: 0 !important;
+      }
+      a {
+        font-size: 1em;
+      }
+      .brand-small {
+        display: block;
+      }
+      .sidenav-header-inner {
+        display: none;
+      }
+      i {
+        margin-right: 0;
+        font-size: 1.2em;
+      }
+      .arrow {
+        float: none;
+        transform: none !important;
+      }
+      .badge {
+        display: none;
+      }
+      span {
+        font-size: 0.65em;
+        display: block;
+      }
+      li ul a {
+        font-size: 0.6em;
+      }
+    }
+  }
+  
+  @media (min-width: 992px) {
+    nav.side-navbar a {
+      font-size: 1.1em;
+    }
+  }
+  
